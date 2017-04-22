@@ -1,0 +1,31 @@
+---
+title: "Analiza rezulatata studenata iz Matematike 1 i 2"
+author: "Tim Breskva: Borna Bejuk, Luka Macan, Lovre Torbarina"
+date: "April 21, 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+Sys.setenv(JAVA_HOME="/usr/bin/java")
+```
+
+
+# Učitavanje paketa za čitanje .xlsx
+```{r}
+library("xlsx")
+```
+
+# Učitavanje podataka iz predmeta Matematika 1
+```{r}
+
+```
+
+# Učitavanje podataka iz predmeta Matematika 2
+```{r}
+
+```
+
