@@ -21,7 +21,20 @@ library("xlsx")
 
 # Učitavanje podataka iz predmeta Matematika 1
 ```{r}
-
+mat1.13_14 <- read.xlsx("podaci/Matematika1_2013-14.xlsx", sheetIndex = 1, rowIndex = 2:766)
+mat1.14_15 <- read.xlsx("podaci/Matematika1_2014-15.xlsx", sheetIndex = 1, rowIndex = 2:844)
+mat1.15_16 <- read.xlsx("podaci/Matematika1_2015-16.xlsx", sheetIndex = 1, rowIndex = 2:749)
+```
+# Da malo vidimo kako izgledaju podaci
+```{r}
+head(mat1.13_14)
+str(mat1.13_14)
+summary(mat1.13_14)
+```
+```{r}
+ggplot(mat1.13_14, aes(x = 1, y = KPZ1)) + geom_boxplot()
+mat1.13_14 <- mutate(mat1.13_14, sum = KPZ1 + KPZ2 + MI + ZI)
+ggplot(mat1.13_14, aes(x = sum)) + geom_histogram()
 ```
 
 # Učitavanje podataka iz predmeta Matematika 2
