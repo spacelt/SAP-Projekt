@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Analiza rezulatata studenata iz Matematike 1 i 2"
 author: "Tim Breskva: Borna Bejuk, Luka Macan, Lovre Torbarina"
@@ -53,7 +52,5 @@ ggplot(mat1.13_14, aes(x = sum)) + geom_histogram()
 
 # Učitavanje podataka iz predmeta Matematika 2
 ```{r}
-#LUKA 
+#LOVRE
 ```
-
->>>>>>> 7fc79662cdcd83342952fc3746064a533da6a0ee
