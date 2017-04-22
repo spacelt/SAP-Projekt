@@ -52,5 +52,5 @@ ggplot(mat1.13_14, aes(x = sum)) + geom_histogram()
 
 # Učitavanje podataka iz predmeta Matematika 2
 ```{r}
-#LOVRE
+#SAP MASTERS
 ```
