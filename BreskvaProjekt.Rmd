@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-Sys.setenv(JAVA_HOME="/usr/bin/java")
+
 ```
 
 
